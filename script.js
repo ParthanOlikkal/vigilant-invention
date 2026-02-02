@@ -56,10 +56,22 @@ function handleAnswer(option, isFinal) {
     return;
   }
 
+  if (isFinal && option.startsWith("Yes")) {
+    confetti({
+      particleCount: 200,
+      spread: 100,
+      origin: { y: 0.6 }
+    });
+
+    setTimeout(() => {
+      alert("💘 YAYYY! Valentine locked in forever 💖");
+    }, 500);
+    return;
+  }
+
   current++;
   if (current < questions.length) {
     loadQuestion();
   }
 }
-
 loadQuestion();
