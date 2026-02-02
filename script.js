@@ -45,7 +45,15 @@ function loadQuestion() {
     const btn = document.createElement("button");
     btn.innerText = option;
 
+    if (q.final && option.startsWith("No")) {
+      btn.onmouseover = () => {
+        btn.style.position = "absolute";
+        btn.style.left = Math.random() * 250 + "px";
+        btn.style.top = Math.random() * 250 + "px";
+      };
+    } else {
     btn.onclick = () => handleAnswer(option, q.final);
+}
     optionsDiv.appendChild(btn);
   });
 }
