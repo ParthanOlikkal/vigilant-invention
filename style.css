@@ -35,6 +35,26 @@ button {
   cursor: pointer;
 }
 
+.hearts::before {
+  content: "💖 💕 💘 💗 💓";
+  position: fixed;
+  top: -10%;
+  left: 50%;
+  font-size: 30px;
+  animation: floatHearts 10s linear infinite;
+}
+
+@keyframes floatHearts {
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 120vh);
+    opacity: 0;
+  }
+}
+
 button:hover {
   background: #ff4d6d;
 }
