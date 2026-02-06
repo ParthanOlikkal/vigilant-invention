@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     
     {
       text: "What is our best adventure?",
-      media: "media/q2.jpg",
-      type: "image",
+      media: "media/q4.mp4",
+      type: "video",
       options: [
         "In the woods",
         "Your place",
