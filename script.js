@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       text: "What makes you feel sexy?",
-      media: "media/q2.jpg",
+      media: "media/q2.png",
       type: "image",
       options: [
         "Confidence",
@@ -27,8 +27,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     {
       text: "What did you first notice in me?",
-      media: "media/q3.jpg",
-      type: "image",
+      media: "media/q3.mp4",
+      type: "video",
       options: ["Smile", "Eyes", "Face", "Hair"]
     },
     
