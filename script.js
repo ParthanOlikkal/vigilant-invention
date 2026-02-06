@@ -1,17 +1,37 @@
 const questions = [
   {
-    text: "What’s his cutest habit?",
+    text: "What is your love language?",
+    media: null,
+    type: null,
+    options: ["Acts of service", "Physical Touch", "Words of affirmation", "Receiving gifts", "Quality time"]
+  },
+
+  {
+    text: "What makes you feel sexy?",
+    media: null,
+    type: null,
+    options: ["Confidence", "Self Care", "Fashion and Style", "Intimacy"]
+  },
+  
+  {
+    text: "What is your go-to romantic scent?",
+    media: null,
+    type: null,
+    options: ["Vanilla or something sweet", "Rose or floral scents", "Something fresh and citrusy", "Woody or musky scents"]
+  },
+  
+  {
+    text: "What did you first notice in me?",
     media: "media/q1.jpg",
     type: "image",
-    options: ["Smile", "Laugh", "Talk", "Exist"]
+    options: ["Smile", "Eyes", "Face", "Hair"]
   },
   {
-    text: "What reminds you of him?",
-    media: "media/q2.mp4",
-    type: "video",
-    options: ["Music", "Food", "Memes", "Everything"]
+    text: "What do you like the most in me?",
+    media: "media/q2.jpg",
+    type: "image",
+    options: ["Hand", "Kuttan", "Character", "Lips"]
   },
-  // ADD MORE QUESTIONS HERE (up to 9)
   {
     text: "Will you be my Valentine? 💘",
     media: null,
