@@ -23,23 +23,22 @@ body {
   border-radius: 25px;
   width: 800px;
   max-width: 100%;
-
+  height: 500px;                 /* 🔑 fixed height */
   display: flex;
   gap: 25px;
-
+  align-items: flex-start;       /* 🔑 top-align columns */
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
   animation: pop 0.8s ease;
-
   position: relative;
   z-index: 2;
 }
 
-/* LEFT SIDE (TEXT + OPTIONS) */
 .content {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start; /* 🔑 */
+  overflow-y: auto;            /* 🔑 */
 }
 
 h1 {
@@ -51,7 +50,7 @@ h1 {
 .media {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* 🔑 */
   justify-content: center;
 }
 
