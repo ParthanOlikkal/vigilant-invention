@@ -79,7 +79,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     if (q.type === "video") {
-      mediaDiv.innerHTML = `<video src="${q.media}" controls></video>`;
+      mediaDiv.innerHTML = `
+  <video controls playsinline muted style="max-width:100%; border-radius:15px;">
+    <source src="${q.media}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+`;
     }
 
     q.options.forEach(option => {
