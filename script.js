@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = [
     {
       text: "What is your love language?",
-      media: "media/q2.jpg",
+      media: "media/IMG_9130.mp4.mov",
       type: "image",
       options: [
         "Acts of service",
