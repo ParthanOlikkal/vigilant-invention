@@ -1,22 +1,22 @@
 const questions = [
   {
     text: "What is your love language?",
-    media: null,
-    type: null,
+    media: "media/q2.jpg",
+    type: "image",
     options: ["Acts of service", "Physical Touch", "Words of affirmation", "Receiving gifts", "Quality time"]
   },
 
   {
     text: "What makes you feel sexy?",
-    media: null,
-    type: null,
+    media: "media/q2.jpg",
+    type: "image",
     options: ["Confidence", "Self Care", "Fashion and Style", "Intimacy"]
   },
   
   {
     text: "What is your go-to romantic scent?",
-    media: null,
-    type: null,
+    media: "media/q2.jpg",
+    type: "image",
     options: ["Vanilla or something sweet", "Rose or floral scents", "Something fresh and citrusy", "Woody or musky scents"]
   },
   
