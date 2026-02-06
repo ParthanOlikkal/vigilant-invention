@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       text: "What is your love language?",
       media: "media/IMG_9130.mp4.mov",
-      type: "image",
+      type: "video",
       options: [
         "Acts of service",
         "Physical Touch",
