@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     {
       text: "What do you like the most in me?",
-      media: "media/q4.jpg",
+      media: "media/q5.png",
       type: "image",
       options: ["Hands", "Kuttan", "Smile", "Lips"]
     },
