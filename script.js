@@ -24,28 +24,31 @@ document.addEventListener("DOMContentLoaded", () => {
         "Intimacy"
       ]
     },
-    {
-      text: "What is your go-to romantic scent?",
-      media: "media/q2.jpg",
-      type: "image",
-      options: [
-        "Vanilla or something sweet",
-        "Rose or floral scents",
-        "Something fresh and citrusy",
-        "Woody or musky scents"
-      ]
-    },
+
     {
       text: "What did you first notice in me?",
-      media: "media/q1.jpg",
+      media: "media/q3.jpg",
       type: "image",
       options: ["Smile", "Eyes", "Face", "Hair"]
     },
+    
     {
-      text: "What do you like the most in me?",
+      text: "What is our best adventure?",
       media: "media/q2.jpg",
       type: "image",
-      options: ["Hands", "Character", "Smile", "Lips"]
+      options: [
+        "In the woods",
+        "Your place",
+        "My place",
+        "Hotel"
+      ]
+    },
+
+    {
+      text: "What do you like the most in me?",
+      media: "media/q4.jpg",
+      type: "image",
+      options: ["Hands", "Kuttan", "Smile", "Lips"]
     },
     {
       text: "Will you be my Valentine? 💘",
