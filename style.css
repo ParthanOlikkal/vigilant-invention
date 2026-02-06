@@ -46,6 +46,24 @@ button {
   100% { transform: scale(1); }
 }
 
+.content {
+  flex: 1;
+}
+
+.media {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.media img,
+.media video {
+  max-width: 100%;
+  max-height: 350px;
+  border-radius: 15px;
+}
+
 .hearts::before {
   content: "💖 💕 💘 💗 💓";
   position: fixed;
