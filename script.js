@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     {
       text: "What did you first notice in me?",
-      media: "media/q3.mp4",
+      media: "media/q3.MP4",
       type: "video",
       options: ["Smile", "Eyes", "Face", "Hair"]
     },
